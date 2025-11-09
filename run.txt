@@ -1,0 +1,8 @@
+npm i -g truffle
+npm run client:install
+npm run truffle:install
+Start Ganache (local Ethereum blockchain)
+npm run truffle:migrate
+npm run client:start
+Connect MetaMask to Ganache network (RPC URL: http://127.0.0.1:8545, Chain ID: 1337)
+Visit http://localhost:3000 in your browser
